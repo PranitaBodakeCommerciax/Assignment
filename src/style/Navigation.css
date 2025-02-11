@@ -1,0 +1,9 @@
+.custom-toggler {
+    color: white !important;
+    border: none;
+  }
+  
+  .custom-toggler .navbar-toggler-icon {
+    filter: invert(1);
+  }
+  
