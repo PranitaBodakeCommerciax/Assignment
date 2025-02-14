@@ -1,6 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Section_Background from "../assets/img/Section_Background.png";
+import { Sparkles } from "lucide-react";
+import { Button } from "react-bootstrap";
+
 
 const Canvas_Section = () => {
   return (
@@ -20,6 +23,8 @@ const Canvas_Section = () => {
     >
       <Row className="justify-content-center">
         <Col xs={12} sm={12} md={12} lg={12}>
+
+
           <div
             className="framer-nmukg8 hidden-1ddkefe"
             data-framer-appear-id="nmukg8"
@@ -37,6 +42,28 @@ const Canvas_Section = () => {
               padding: "20px",
             }}
           >
+
+<Button
+      className="d-flex align-items-center justify-content-center gap-2 custom-btn"
+      style={{
+        backgroundColor: "rgba(255, 255, 255, 0.1)", // Transparent white
+        backdropFilter: "blur(10px)", // Blur effect
+        border: "1px solid rgba(255, 255, 255, 0.1)", // Subtle border
+        borderRadius: "50px",
+        fontWeight: "bold",
+        fontSize: "12px",
+        color: "#FFF", // White text
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        gap: "5px",
+        filter: "saturate(1.4)", // Color enhancement
+        boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", // Soft shadow
+        padding: "6px 14px",
+      }}
+    >
+      <Sparkles size={14} color="white" /> New: Layout Templates
+    </Button>s
             <img
               decoding="async"
               className="img-fluid"
@@ -54,7 +81,7 @@ const Canvas_Section = () => {
                 height: "auto",
                 objectFit: "cover",
                 borderRadius: "inherit",
-                marginTop:'20px'
+                marginTop: '20px'
               }}
             />
           </div>
